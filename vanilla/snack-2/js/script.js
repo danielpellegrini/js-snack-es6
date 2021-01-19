@@ -44,3 +44,13 @@ for (var i = 0; i < squadre.length; i++) {
     squadre[i]['falli subiti']=Math.floor(Math.random()*100+1);
 }
 console.log(squadre);
+
+var newSquadre = [];
+
+for (var i = 0; i < squadre.length; i++) {
+  newSquadre.push({
+    'nome': squadre[i]['nome'],
+    'falli subiti': squadre[i]['falli subiti'],
+  })
+}
+console.log(newSquadre);

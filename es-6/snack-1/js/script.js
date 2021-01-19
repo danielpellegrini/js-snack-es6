@@ -28,6 +28,8 @@ const bike=[
 console.log(bike);
 let lightBike=bike[0];
 
+const {name, weight} = lightBike
+
 for (let i = 1; i < bike.length; i++) {
    if (lightBike.weight>bike[i].weight){
     lightBike=bike[i];
